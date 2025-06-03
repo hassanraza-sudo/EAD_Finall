@@ -51,16 +51,43 @@ const styles = {
     height: "300px",
     backgroundColor: "#333",
     padding: "20px",
-    borderRadius: "10px",
+    borderRadius: "20px",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
     alignItems: "center",
+    boxShadow: "0 0 10px rgba(0,0,0,0.5)",
   },
   light: {
     width: "60px",
     height: "60px",
     borderRadius: "50%",
+    opacity: 0.3,
+    transition: "opacity 0.5s, box-shadow 0.5s",
+  },
+  activeRed: {
+    opacity: 1,
+    backgroundColor: "red",
+    boxShadow: "0 0 20px red",
+  },
+  activeYellow: {
+    opacity: 1,
+    backgroundColor: "yellow",
+    boxShadow: "0 0 20px yellow",
+  },
+  activeGreen: {
+    opacity: 1,
+    backgroundColor: "green",
+    boxShadow: "0 0 20px green",
+  },
+  red: {
+    backgroundColor: "red",
+  },
+  yellow: {
+    backgroundColor: "yellow",
+  },
+  green: {
+    backgroundColor: "green",
   },
 };
 
